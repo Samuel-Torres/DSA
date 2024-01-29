@@ -1,0 +1,8 @@
+# https://www.w3schools.com/python/gloss_python_arithmetic_operators.asp
+# +	Addition	x + y	
+# -	Subtraction	x - y	 
+# *	Multiplication	x * y	
+# /	Division	x / y	
+# %	Modulus	x % y	
+# **	Exponentiation	x ** y	
+# //	Floor division	x // y
