@@ -7,6 +7,7 @@ class Student:
         self.name = name
         self.roll = roll
         self.grade = grade
+        print(f"A new student named {name} has been added to the roster.")
 
     def __str__(self):
         return "This is a Student class."
@@ -26,3 +27,7 @@ new_student2.display()
 new_student3.display()
 
 print(new_student3.__doc__) # how to print doc string above.
+
+# You can explicitly call the init method on a class like so:
+Sam = Student("Sam", 100, 98.2) # implicitly called
+Sam.__init__("Sam", 100, 98.2) # explicitly called
